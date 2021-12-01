@@ -7,8 +7,8 @@ CreatList(data);
 
 function CreatList(data){
 cardPlace.innerHTML = data.map(item => `
-        <div class="p-2">
-            <div class="card text-center">
+        <div class="p-2 ">
+            <div class="card text-center shadow">
             <img src="${item.image}" class="rounded mx-auto d-block p-4" style="width: 10rem; height: 10rem" alt="...">
             <div class="card-body">
                 <h5 class="card-title count-title">${item.title}</h5>
